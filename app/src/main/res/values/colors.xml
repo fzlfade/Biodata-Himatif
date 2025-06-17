@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF90CAF9</color>  <!-- Light Blue 200 -->
+    <color name="purple_500">#FF2196F3</color>  <!-- Blue 500 -->
+    <color name="purple_700">#FF1976D2</color>  <!-- Blue 700 -->
+    <color name="teal_200">#FF81D4FA</color>    <!-- Light Blue 200 -->
+    <color name="teal_700">#FF0288D1</color>    <!-- Light Blue 700 -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
