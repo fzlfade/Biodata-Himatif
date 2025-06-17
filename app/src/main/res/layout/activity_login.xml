@@ -4,43 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="32dp"
     tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="378dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_toStartOf="@+id/id_register"
+        android:text="Belum Punya Akun?" />
+
+    <TextView
+        android:id="@+id/id_register"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="378dp"
+        android:layout_marginEnd="77dp"
+        android:paddingStart="7dp"
+        android:text="Register"
+        android:textStyle="bold" />
+
     <ImageView
         android:id="@+id/logo"
         android:layout_width="144dp"
         android:layout_height="144dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:src="@drawable/logo_himatif">
-    </ImageView>
+        android:src="@drawable/logo_himatif"></ImageView>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Himpunan Mahasiswa Teknologi Informasi"
         android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"
-        android:layout_centerHorizontal="true">
-    </TextView>
+        android:text="Himpunan Mahasiswa Teknologi Informasi"></TextView>
+
     <EditText
+        android:id="@+id/editUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="228dp"
-        android:id="@+id/editUsername"
-        android:hint="Username"/>
+        android:layout_marginEnd="32dp"
+        android:hint="Username" />
+
     <EditText
+        android:id="@+id/editPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/editUsername"
-        android:id="@+id/editPassword"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:hint="Password"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword" />
+
     <Button
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/editPassword"
-        android:id="@+id/btnLogin"
-        android:text="LOGIN"/>
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="LOGIN" />
 
 </RelativeLayout>

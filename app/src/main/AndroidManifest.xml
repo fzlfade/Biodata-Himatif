@@ -9,15 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BiodataHIMATIF">
-        <activity android:name="com.example.biodatahimatif.UpdateActivity"/>
-        <activity android:name="com.example.biodatahimatif.ReadActivity" />
-        <activity android:name="com.example.biodatahimatif.CreateActivity" />
-        <activity android:name="com.example.biodatahimatif.MainActivity" />
-        <activity android:name="com.example.biodatahimatif.LoginActivity"
+
+        <!-- Tambahkan RegisterActivity di sini -->
+        <activity android:name=".RegisterActivity" />
+
+        <activity android:name=".UpdateActivity"/>
+        <activity android:name=".ReadActivity" />
+        <activity android:name=".CreateActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
